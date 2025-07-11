@@ -13,14 +13,14 @@ android {
         resources.excludes.add("META-INF/*")
     }
 
-    namespace = "com.example.wearosapp"
+    namespace = "com.numaxes.wearosapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.wearosapp"
+        applicationId = "com.numaxes.wearosapp"
         minSdk = 30
         targetSdk = 34
-        versionCode = 1
+        versionCode = 4
         versionName = "1.0"
     }
 

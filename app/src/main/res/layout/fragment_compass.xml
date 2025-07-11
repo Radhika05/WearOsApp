@@ -28,7 +28,7 @@
                 <!-- Compass View with scroll capability -->
 
                 <!-- Rotation Overlay -->
-                <com.example.wearosapp.view.DogCompassView
+                <com.numaxes.wearosapp.view.DogCompassView
                     android:id="@+id/dogCompassView"
                     android:layout_width="138dp"
                     android:layout_height="117dp"

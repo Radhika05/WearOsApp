@@ -13,16 +13,18 @@
     android:background="@drawable/border_background">
 
 
-    <com.google.android.material.switchmaterial.SwitchMaterial
+    <androidx.appcompat.widget.AppCompatCheckBox
         android:id="@+id/image_view_bluetooth"
         android:layout_width="45dp"
         android:layout_height="50dp"
+        android:clickable="true"
         android:layout_marginTop="8dp"
+        android:buttonTint="@color/orange"
         android:backgroundTint="@color/orange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
+         />
 
     <!-- Settings Icon on the right -->
     <ImageView
